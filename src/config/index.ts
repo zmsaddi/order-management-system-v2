@@ -1,8 +1,8 @@
 // Environment variables configuration
 export const config = {
-  // Supabase Configuration
-  supabaseUrl: import.meta.env.VITE_SUPABASE_URL || '',
-  supabaseAnonKey: import.meta.env.VITE_SUPABASE_ANON_KEY || '',
+  // Supabase Configuration - Real Values
+  supabaseUrl: 'https://hifordsrgtmuhlhwsfar.supabase.co',
+  supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhpZm9yZHNyZ3RtdWhsaHdzZmFyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk0ODE1MDgsImV4cCI6MjA2NTA1NzUwOH0.eGeNXKjiXjv_1MnM5R-0hs1FDKG54EoKASZLd9z4OhA',
   
   // Application Configuration
   appName: 'Order Management System',
