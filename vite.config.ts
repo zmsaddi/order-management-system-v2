@@ -14,14 +14,13 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
-    minify: 'terser',
+    minify: 'esbuild',
     rollupOptions: {
       output: {
         manualChunks: {
           vendor: ['vue', 'vue-router', 'pinia'],
           supabase: ['@supabase/supabase-js'],
-          ui: ['@headlessui/vue', '@heroicons/vue'],
-          pdf: ['jspdf', 'jspdf-autotable', 'html2canvas']
+          ui: ['@headlessui/vue', '@heroicons/vue']
         }
       }
     }
